@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1151FE51D52990D006B1A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1151FE41D52990D006B1A58 /* AppDelegate.swift */; };
+		A1151FE71D52990D006B1A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1151FE61D52990D006B1A58 /* ViewController.swift */; };
+		A1151FEA1D52990D006B1A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1151FE81D52990D006B1A58 /* Main.storyboard */; };
+		A1151FEC1D52990D006B1A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1151FEB1D52990D006B1A58 /* Assets.xcassets */; };
+		A1151FEF1D52990D006B1A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1151FED1D52990D006B1A58 /* LaunchScreen.storyboard */; };
+		A1151FFA1D52990D006B1A58 /* pH7CMS_WebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1151FF91D52990D006B1A58 /* pH7CMS_WebviewTests.swift */; };
+		A11520051D52990D006B1A58 /* pH7CMS_WebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11520041D52990D006B1A58 /* pH7CMS_WebviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1151FF61D52990D006B1A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1151FD91D52990D006B1A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1151FE01D52990D006B1A58;
+			remoteInfo = "pH7CMS Webview";
+		};
+		A11520011D52990D006B1A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1151FD91D52990D006B1A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1151FE01D52990D006B1A58;
+			remoteInfo = "pH7CMS Webview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1151FE11D52990D006B1A58 /* pH7CMS Webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH7CMS Webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1151FE41D52990D006B1A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1151FE61D52990D006B1A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1151FE91D52990D006B1A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1151FEB1D52990D006B1A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1151FEE1D52990D006B1A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1151FF01D52990D006B1A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1151FF51D52990D006B1A58 /* pH7CMS WebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH7CMS WebviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1151FF91D52990D006B1A58 /* pH7CMS_WebviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH7CMS_WebviewTests.swift; sourceTree = "<group>"; };
+		A1151FFB1D52990D006B1A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11520001D52990D006B1A58 /* pH7CMS WebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH7CMS WebviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11520041D52990D006B1A58 /* pH7CMS_WebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH7CMS_WebviewUITests.swift; sourceTree = "<group>"; };
+		A11520061D52990D006B1A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1151FDE1D52990D006B1A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FF21D52990D006B1A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FFD1D52990D006B1A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1151FD81D52990D006B1A58 = {
+			isa = PBXGroup;
+			children = (
+				A1151FE31D52990D006B1A58 /* pH7CMS Webview */,
+				A1151FF81D52990D006B1A58 /* pH7CMS WebviewTests */,
+				A11520031D52990D006B1A58 /* pH7CMS WebviewUITests */,
+				A1151FE21D52990D006B1A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1151FE21D52990D006B1A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1151FE11D52990D006B1A58 /* pH7CMS Webview.app */,
+				A1151FF51D52990D006B1A58 /* pH7CMS WebviewTests.xctest */,
+				A11520001D52990D006B1A58 /* pH7CMS WebviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1151FE31D52990D006B1A58 /* pH7CMS Webview */ = {
+			isa = PBXGroup;
+			children = (
+				A1151FE41D52990D006B1A58 /* AppDelegate.swift */,
+				A1151FE61D52990D006B1A58 /* ViewController.swift */,
+				A1151FE81D52990D006B1A58 /* Main.storyboard */,
+				A1151FEB1D52990D006B1A58 /* Assets.xcassets */,
+				A1151FED1D52990D006B1A58 /* LaunchScreen.storyboard */,
+				A1151FF01D52990D006B1A58 /* Info.plist */,
+			);
+			path = "pH7CMS Webview";
+			sourceTree = "<group>";
+		};
+		A1151FF81D52990D006B1A58 /* pH7CMS WebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1151FF91D52990D006B1A58 /* pH7CMS_WebviewTests.swift */,
+				A1151FFB1D52990D006B1A58 /* Info.plist */,
+			);
+			path = "pH7CMS WebviewTests";
+			sourceTree = "<group>";
+		};
+		A11520031D52990D006B1A58 /* pH7CMS WebviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A11520041D52990D006B1A58 /* pH7CMS_WebviewUITests.swift */,
+				A11520061D52990D006B1A58 /* Info.plist */,
+			);
+			path = "pH7CMS WebviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1151FE01D52990D006B1A58 /* pH7CMS Webview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11520091D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS Webview" */;
+			buildPhases = (
+				A1151FDD1D52990D006B1A58 /* Sources */,
+				A1151FDE1D52990D006B1A58 /* Frameworks */,
+				A1151FDF1D52990D006B1A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pH7CMS Webview";
+			productName = "pH7CMS Webview";
+			productReference = A1151FE11D52990D006B1A58 /* pH7CMS Webview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1151FF41D52990D006B1A58 /* pH7CMS WebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115200C1D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS WebviewTests" */;
+			buildPhases = (
+				A1151FF11D52990D006B1A58 /* Sources */,
+				A1151FF21D52990D006B1A58 /* Frameworks */,
+				A1151FF31D52990D006B1A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1151FF71D52990D006B1A58 /* PBXTargetDependency */,
+			);
+			name = "pH7CMS WebviewTests";
+			productName = "pH7CMS WebviewTests";
+			productReference = A1151FF51D52990D006B1A58 /* pH7CMS WebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1151FFF1D52990D006B1A58 /* pH7CMS WebviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115200F1D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS WebviewUITests" */;
+			buildPhases = (
+				A1151FFC1D52990D006B1A58 /* Sources */,
+				A1151FFD1D52990D006B1A58 /* Frameworks */,
+				A1151FFE1D52990D006B1A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11520021D52990D006B1A58 /* PBXTargetDependency */,
+			);
+			name = "pH7CMS WebviewUITests";
+			productName = "pH7CMS WebviewUITests";
+			productReference = A11520001D52990D006B1A58 /* pH7CMS WebviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1151FD91D52990D006B1A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pierre-Henry Soria";
+				TargetAttributes = {
+					A1151FE01D52990D006B1A58 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A1151FF41D52990D006B1A58 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1151FE01D52990D006B1A58;
+					};
+					A1151FFF1D52990D006B1A58 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1151FE01D52990D006B1A58;
+					};
+				};
+			};
+			buildConfigurationList = A1151FDC1D52990D006B1A58 /* Build configuration list for PBXProject "pH7CMS Webview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1151FD81D52990D006B1A58;
+			productRefGroup = A1151FE21D52990D006B1A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1151FE01D52990D006B1A58 /* pH7CMS Webview */,
+				A1151FF41D52990D006B1A58 /* pH7CMS WebviewTests */,
+				A1151FFF1D52990D006B1A58 /* pH7CMS WebviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1151FDF1D52990D006B1A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1151FEF1D52990D006B1A58 /* LaunchScreen.storyboard in Resources */,
+				A1151FEC1D52990D006B1A58 /* Assets.xcassets in Resources */,
+				A1151FEA1D52990D006B1A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FF31D52990D006B1A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FFE1D52990D006B1A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1151FDD1D52990D006B1A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1151FE71D52990D006B1A58 /* ViewController.swift in Sources */,
+				A1151FE51D52990D006B1A58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FF11D52990D006B1A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1151FFA1D52990D006B1A58 /* pH7CMS_WebviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1151FFC1D52990D006B1A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11520051D52990D006B1A58 /* pH7CMS_WebviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1151FF71D52990D006B1A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1151FE01D52990D006B1A58 /* pH7CMS Webview */;
+			targetProxy = A1151FF61D52990D006B1A58 /* PBXContainerItemProxy */;
+		};
+		A11520021D52990D006B1A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1151FE01D52990D006B1A58 /* pH7CMS Webview */;
+			targetProxy = A11520011D52990D006B1A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1151FE81D52990D006B1A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1151FE91D52990D006B1A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1151FED1D52990D006B1A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1151FEE1D52990D006B1A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11520071D52990D006B1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11520081D52990D006B1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A115200A1D52990D006B1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pH7CMS Webview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-Webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A115200B1D52990D006B1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pH7CMS Webview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-Webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A115200D1D52990D006B1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "pH7CMS WebviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-WebviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH7CMS Webview.app/pH7CMS Webview";
+			};
+			name = Debug;
+		};
+		A115200E1D52990D006B1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "pH7CMS WebviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-WebviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH7CMS Webview.app/pH7CMS Webview";
+			};
+			name = Release;
+		};
+		A11520101D52990D006B1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "pH7CMS WebviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-WebviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pH7CMS Webview";
+			};
+			name = Debug;
+		};
+		A11520111D52990D006B1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "pH7CMS WebviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ph7cms.com.pH7CMS-WebviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pH7CMS Webview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1151FDC1D52990D006B1A58 /* Build configuration list for PBXProject "pH7CMS Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11520071D52990D006B1A58 /* Debug */,
+				A11520081D52990D006B1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11520091D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115200A1D52990D006B1A58 /* Debug */,
+				A115200B1D52990D006B1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A115200C1D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS WebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115200D1D52990D006B1A58 /* Debug */,
+				A115200E1D52990D006B1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A115200F1D52990D006B1A58 /* Build configuration list for PBXNativeTarget "pH7CMS WebviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11520101D52990D006B1A58 /* Debug */,
+				A11520111D52990D006B1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1151FD91D52990D006B1A58 /* Project object */;
+}
