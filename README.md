@@ -10,7 +10,7 @@ The pH7 Social Dating iOS App allows you to use [pH7CMS](http://ph7cms.com) thro
 
 ## How It works
 
- When your [pH7CMS Pro's website](http://ph7cms.com/pro) is live, you will be able to edit the app's URL in `ViewController.swift` by changing `let URL:String = "http://demo.hizup.com/pH7CMS"` by the URL of your site like `let URL:String = "http://my-ph7cms-site.com/?mobapp=1"`
+ When your [pH7CMS Pro's website](http://ph7cms.com/pro) is live, you will be able to edit the app's URL in `ViewController.swift` by changing `let URL:String = "http://demo.hizup.com/pH7CMS"` to the URL of your site like `let URL:String = "http://my-ph7cms-site.com/?mobapp=1"`
 
 Note that the `?mobapp=1` is important for pH7CMS [MobileApp class](https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/master/_protected/framework/Mobile/MobApp.class.php#L20). This will improve and help your site to be even better than normally on the native app!
 
