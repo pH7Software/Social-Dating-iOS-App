@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // You URL to load into the app (e.g. http://my-ph7cms-site.com/?mobapp=1)
-    let URL:String = "http://demo.hizup.com/pH7CMS"
+    // You URL to load into the app (e.g. https://my-ph7cms-site.com/?mobapp=1)
+    let URL:String = "https://demos5.softaculous.com/pH7CMS/"
     
     @IBOutlet weak var webView: UIWebView!
     
